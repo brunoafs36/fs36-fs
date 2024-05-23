@@ -1,3 +1,25 @@
-//console.log(1Rodando via head);
+/* 
+    Objetivo: Calcular a média de 2 números
 
-let nome = ''
+    1 - Pegar os 2 núemros
+    2 - Somar os 2 números
+    3 - Dividir o resultado pela quantidade de números
+*/
+let n1 = 100;
+let n2 = 900;
+
+
+function soma() {
+    console.log(n1+n2);
+    return n1+n2
+
+}
+
+soma()
+
+function media() {
+    console.log(soma() / 2 );
+
+}
+
+media()
